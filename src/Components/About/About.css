@@ -1,0 +1,13 @@
+.About-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.About-title {
+  text-align: center;
+  font-size: calc(10px + 10vmin);
+  color: #000000;
+}

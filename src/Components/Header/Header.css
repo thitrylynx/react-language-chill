@@ -1,0 +1,17 @@
+.Header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: bisque;
+  background: url("../Images/BackgroundImage.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Header-title {
+  position: absolute;
+  text-align: center;
+  font-size: calc(10px + 10vmin);
+  color: white;
+}
