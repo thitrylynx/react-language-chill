@@ -22,7 +22,7 @@ export default class ProgressiveImage extends Component {
     const { highResImageLoaded } = this.state;
     let filteredProps = omit(this.props, "overlaySrc");
     return (
-      <span>
+      <span style={{ position: "relative" }}>
         <img
           {...filteredProps}
           className={`original`}
